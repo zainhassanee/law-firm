@@ -24,6 +24,11 @@ export const metadata: Metadata = {
     "law firm, legal services, attorney, lawyer, family law, corporate law, criminal defense, personal injury, real estate law, estate planning",
   generator: "v0.app",
   metadataBase: new URL("https://sterlinglaw.com"),
+  icons: {
+    icon: "/logo2.png",
+    shortcut: "/logo2.png",
+    apple: "/logo2.png",
+  },
   alternates: {
     canonical: "/",
   },
@@ -91,7 +96,7 @@ export default function RootLayout({
               description:
                 "Professional legal services including family law, corporate law, criminal defense, personal injury, real estate law, and estate planning.",
               url: "https://sterlinglaw.com",
-              logo: "https://sterlinglaw.com/logo.png",
+              logo: "/logo.png",
               image: "https://sterlinglaw.com/professional-law-office-courtroom-interior.jpg",
               telephone: "+1-555-123-4567",
               email: "info@sterlinglaw.com",

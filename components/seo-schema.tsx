@@ -13,13 +13,13 @@ export function LawFirmSchema({ page = "home", blogPost }: LawFirmSchemaProps) {
   const baseSchema = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: "Sterling & Associates Law Firm",
+    name: "Qazi Nafees ur Rehman Law Associates",
     description:
       "Professional legal services including family law, corporate law, criminal defense, personal injury, real estate law, and estate planning.",
     url: "https://sterlinglaw.com",
     logo: "https://sterlinglaw.com/logo.png",
-    telephone: "+1-555-123-4567",
-    email: "info@sterlinglaw.com",
+    telephone: "+92 323 5235271",
+    email: "qazi.nafees.ur.rehman@gmail.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "123 Legal Plaza, Suite 500",
@@ -42,7 +42,7 @@ export function LawFirmSchema({ page = "home", blogPost }: LawFirmSchemaProps) {
       },
       publisher: {
         "@type": "Organization",
-        name: "Sterling & Associates Law Firm",
+        name: "Qazi Nafees ur Rehman Law Associates",
         logo: {
           "@type": "ImageObject",
           url: "https://sterlinglaw.com/logo.png",
