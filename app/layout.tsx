@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "law firm, legal services, attorney, lawyer, family law, corporate law, criminal defense, personal injury, real estate law, estate planning",
   generator: "v0.app",
   metadataBase: new URL("https://sterlinglaw.com"),
-  icons: {
+   icons: {
     icon: "/logo2.png",
     shortcut: "/logo2.png",
     apple: "/logo2.png",
