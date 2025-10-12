@@ -16,8 +16,8 @@ export function LawFirmSchema({ page = "home", blogPost }: LawFirmSchemaProps) {
     name: "Qazi Nafees ur Rehman Law Associates",
     description:
       "Professional legal services including family law, corporate law, criminal defense, personal injury, real estate law, and estate planning.",
-    url: "https://sterlinglaw.com",
-    logo: "https://sterlinglaw.com/logo.png",
+    url: "https://qazinafeeslaw.com",
+    logo: "https://qazinafeeslaw.com/logo.png",
     telephone: "+92 323 5235271",
     email: "qazi.nafees.ur.rehman@gmail.com",
     address: {
@@ -45,14 +45,14 @@ export function LawFirmSchema({ page = "home", blogPost }: LawFirmSchemaProps) {
         name: "Qazi Nafees ur Rehman Law Associates",
         logo: {
           "@type": "ImageObject",
-          url: "https://sterlinglaw.com/logo.png",
+          url: "https://qazinafeeslaw.com/logo.png",
         },
       },
       datePublished: blogPost.datePublished,
       dateModified: blogPost.dateModified || blogPost.datePublished,
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://sterlinglaw.com/blog",
+        "@id": "https://qazinafeeslaw.com/blog",
       },
     }
 

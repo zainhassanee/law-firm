@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   keywords:
     "law firm, legal services, attorney, lawyer, family law, corporate law, criminal defense, personal injury, real estate law, estate planning",
   generator: "v0.app",
-  metadataBase: new URL("https://sterlinglaw.com"),
+  metadataBase: new URL("https://qazinafeeslaw.com"),
    icons: {
     icon: "/logo2.png",
     shortcut: "/logo2.png",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Qazi Nafees ur Rehman Law Associates | Your Trusted Legal Partner",
     description:
       "Professional legal services including family law, corporate law, criminal defense, personal injury, real estate law, and estate planning.",
-    url: "https://sterlinglaw.com",
+    url: "https://qazinafeeslaw.com",
     siteName: "Qazi Nafees ur Rehman Law Associates",
     images: [
       {
@@ -95,11 +95,11 @@ export default function RootLayout({
               name: "Qazi Nafees ur Rehman Law Associates",
               description:
                 "Professional legal services including family law, corporate law, criminal defense, personal injury, real estate law, and estate planning.",
-              url: "https://sterlinglaw.com",
+              url: "https://qazinafeeslaw.com",
               logo: "/logo.png",
-              image: "https://sterlinglaw.com/professional-law-office-courtroom-interior.jpg",
+              image: "https://qazinafeeslaw.com/professional-law-office-courtroom-interior.jpg",
               telephone: "+1-555-123-4567",
-              email: "info@sterlinglaw.com",
+              email: "info@qazinafeeslaw.com",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "123 Legal Plaza, Suite 500",
@@ -131,11 +131,11 @@ export default function RootLayout({
                 "@type": "Person",
                 name: "Qazi Nafees ur Rehman",
               },
-              foundingDate: "1995",
+              foundingDate: "2024",
               sameAs: [
-                "https://www.facebook.com/sterlinglaw",
+                "https://www.facebook.com/qazinafeeslaw",
                 "https://www.linkedin.com/company/sterling-associates",
-                "https://twitter.com/sterlinglaw",
+                "https://twitter.com/qazinafeeslaw",
               ],
             }),
           }}

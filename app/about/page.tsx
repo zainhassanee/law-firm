@@ -122,59 +122,15 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Qazi Nafees ur Rehman",
-                title: "Founding Partner",
-                specialization: "Corporate Law & Litigation",
-                image: "/professional-male-lawyer.png",
-                bio: "With over 30 years of experience, Qazi Nafees ur Rehman founded Qazi Nafees ur Rehman Law Associates with a vision of providing exceptional legal services. He specializes in complex corporate litigation and has successfully represented Fortune 500 companies and small businesses alike.",
-                education: "Harvard Law School, J.D. | Yale University, B.A.",
-                barAdmissions: ["State Bar", "Federal Court", "Supreme Court"],
+                name: " Qazi Nafees ur Rehman Law Associates",
+                title: "Founder & CEO",
+                specialization: "",
+                image: "/professional-lawyers-team-office-meeting.jpg",
+                bio: "Founded by Qazi Nafees ur Rehman, our law firm brings together a dedicated team of experienced attorneys specializing in Corporate Law, Civil Litigation, Family Law, Criminal Defense, Property Law, Constitutional Matters, and Legal Advisory. Under his leadership, the firm has earned a reputation for excellence, integrity, and success in representing individuals, families, and corporations in complex legal matters.",
+                education: "",
+                barAdmissions: ["State Bar","High Court", "Federal Court", "Supreme Court"],
               },
-              {
-                name: "Sarah Mitchell",
-                title: "Senior Partner",
-                specialization: "Family Law & Mediation",
-                image: "/female-lawyer-business-attire.png",
-                bio: "Sarah brings 20 years of experience in family law, with a focus on collaborative divorce and child custody matters. Her compassionate approach and skilled negotiation have helped hundreds of families navigate difficult transitions.",
-                education: "Stanford Law School, J.D. | UC Berkeley, B.A.",
-                barAdmissions: ["State Bar", "Family Court", "Mediation Certified"],
-              },
-              {
-                name: "Michael Chen",
-                title: "Partner",
-                specialization: "Criminal Defense & Appeals",
-                image: "/professional-asian-male-lawyer-confident-pose.jpg",
-                bio: "Michael is a former prosecutor with 15 years of criminal law experience. His deep understanding of both sides of the courtroom gives him a unique advantage in defending clients facing serious criminal charges.",
-                education: "Columbia Law School, J.D. | Princeton University, B.A.",
-                barAdmissions: ["State Bar", "Federal Court", "Appeals Court"],
-              },
-              {
-                name: "Jennifer Rodriguez",
-                title: "Associate Partner",
-                specialization: "Personal Injury & Medical Malpractice",
-                image: "/professional-latina-female-lawyer-confident-smile.jpg",
-                bio: "Jennifer has secured millions in settlements for personal injury clients over her 12-year career. Her meticulous preparation and aggressive advocacy have earned her recognition as a rising star in personal injury law.",
-                education: "Georgetown Law, J.D. | University of Texas, B.A.",
-                barAdmissions: ["State Bar", "Federal Court", "Medical Malpractice Certified"],
-              },
-              {
-                name: "David Thompson",
-                title: "Senior Associate",
-                specialization: "Real Estate & Business Transactions",
-                image: "/professional-male-lawyer-business-casual-friendly.jpg",
-                bio: "David handles complex real estate transactions and business formations. With 10 years of experience, he has facilitated over $500 million in real estate deals and helped launch hundreds of successful businesses.",
-                education: "NYU Law School, J.D. | Northwestern University, B.A.",
-                barAdmissions: ["State Bar", "Real Estate Law Certified"],
-              },
-              {
-                name: "Lisa Park",
-                title: "Associate",
-                specialization: "Estate Planning & Probate",
-                image: "/professional-asian-female-lawyer-warm-smile.jpg",
-                bio: "Lisa focuses on estate planning and probate matters, helping families protect their assets and plan for the future. Her attention to detail and caring approach make complex legal processes understandable for clients.",
-                education: "UCLA Law School, J.D. | USC, B.A.",
-                barAdmissions: ["State Bar", "Probate Court", "Estate Planning Certified"],
-              },
+              
             ].map((lawyer, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <div className="aspect-square relative overflow-hidden rounded-t-lg">
@@ -195,7 +151,7 @@ export default function AboutPage() {
                   <p className="text-sm text-muted-foreground leading-relaxed">{lawyer.bio}</p>
                   <div className="space-y-2">
                     <div>
-                      <h4 className="font-semibold text-sm">Education</h4>
+                      <h4 className="font-semibold text-sm"></h4>
                       <p className="text-sm text-muted-foreground">{lawyer.education}</p>
                     </div>
                     <div>
